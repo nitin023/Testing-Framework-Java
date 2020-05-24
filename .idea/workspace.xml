@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd88fdbf-1aff-435e-9d4d-0dfcf1ef9b75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Junit5/Junit5SampleAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Junit5/Junit5SampleAssertionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Junit5/JunitSampleClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Junit5/JunitSampleClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Junit5/JunitSampleClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,13 +52,52 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.JunitSampleClassTest">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Junit5" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Junit5SampleAssertionTest">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Testing-Framework-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit5SampleAssertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Framework-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit5" />
+      <option name="MAIN_CLASS_NAME" value="Junit5.Junit5SampleAssertionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit5SampleAssertionTest.testAssertTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Framework-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit5" />
+      <option name="MAIN_CLASS_NAME" value="Junit5.Junit5SampleAssertionTest" />
+      <option name="METHOD_NAME" value="testAssertTrue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,9 +120,13 @@
     <list>
       <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.JunitSampleClassTest" />
+      <item itemvalue="JUnit.Junit5SampleAssertionTest" />
+      <item itemvalue="JUnit.Junit5SampleAssertionTest.testAssertTrue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Junit5SampleAssertionTest" />
+        <item itemvalue="JUnit.Junit5SampleAssertionTest.testAssertTrue" />
         <item itemvalue="JUnit.JunitSampleClassTest" />
       </list>
     </recent_temporary>
@@ -105,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590318604854</updated>
-      <workItem from="1590318607793" duration="91000" />
+      <workItem from="1590318607793" duration="2697000" />
     </task>
     <servers />
   </component>
@@ -113,10 +161,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="44" key="#Project_Structure" timestamp="1590318630673">
+    <state x="283" y="44" key="#Project_Structure" timestamp="1590321193191">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="283" y="44" key="#Project_Structure/0.24.1366.744@0.24.1366.744" timestamp="1590318630673" />
+    <state x="283" y="44" key="#Project_Structure/0.24.1366.744@0.24.1366.744" timestamp="1590321193191" />
     <state x="147" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590318699351">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
@@ -125,9 +173,33 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="420" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.24.1366.744@0.24.1366.744" timestamp="1590318696996" />
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590318821155">
+    <state width="1320" height="279" key="GridCell.Tab.0.bottom" timestamp="1590321577917">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590318821155" />
+    <state width="1320" height="279" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590321577917" />
+    <state width="1320" height="279" key="GridCell.Tab.0.center" timestamp="1590321577916">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="279" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1590321577916" />
+    <state width="1320" height="279" key="GridCell.Tab.0.left" timestamp="1590321577916">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="279" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1590321577916" />
+    <state width="1320" height="279" key="GridCell.Tab.0.right" timestamp="1590321577917">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="279" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1590321577917" />
+    <state x="171" y="24" key="SettingsEditor" timestamp="1590321467928">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="171" y="24" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1590321467928" />
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590320467071">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590320467071" />
+    <state x="347" y="168" width="672" height="677" key="run.anything.popup" timestamp="1590321513418">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="347" y="168" width="672" height="677" key="run.anything.popup/0.24.1366.744@0.24.1366.744" timestamp="1590321513418" />
   </component>
 </project>
