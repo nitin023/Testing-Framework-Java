@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd88fdbf-1aff-435e-9d4d-0dfcf1ef9b75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.attach_pid21496" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Junit5/JunitSampleAssumptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Junit5/JunitSampleAssumptionsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,10 +65,25 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JunitSampleAssumptionsTest.testAssumingThat">
+  <component name="RunManager" selected="JUnit.Junit5NestedClassTest">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Testing-Framework-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Junit5NestedClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Framework-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit5" />
+      <option name="MAIN_CLASS_NAME" value="Junit5.Junit5NestedClassTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,22 +115,6 @@
       <option name="PACKAGE_NAME" value="Junit5" />
       <option name="MAIN_CLASS_NAME" value="Junit5.JunitSampleAssumptionsTest" />
       <option name="METHOD_NAME" value="testAssumeFalseEnvProp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitSampleAssumptionsTest.testAssumeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Framework-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Junit5" />
-      <option name="MAIN_CLASS_NAME" value="Junit5.JunitSampleAssumptionsTest" />
-      <option name="METHOD_NAME" value="testAssumeTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,19 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrue" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrueSaturday" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalse" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalseEnvProp" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumingThat" />
+      <item itemvalue="JUnit.Junit5NestedClassTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Junit5NestedClassTest" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumingThat" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalse" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrueSaturday" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalseEnvProp" />
-        <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590318604854</updated>
-      <workItem from="1590318607793" duration="4037000" />
+      <workItem from="1590318607793" duration="7113000" />
     </task>
     <servers />
   </component>
@@ -219,30 +215,30 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="420" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.24.1366.744@0.24.1366.744" timestamp="1590318696996" />
-    <state width="1320" height="279" key="GridCell.Tab.0.bottom" timestamp="1590323622841">
+    <state width="1320" height="279" key="GridCell.Tab.0.bottom" timestamp="1590323640406">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590323622841" />
-    <state width="1320" height="279" key="GridCell.Tab.0.center" timestamp="1590323622841">
+    <state width="1320" height="279" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590323640406" />
+    <state width="1320" height="279" key="GridCell.Tab.0.center" timestamp="1590323640405">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1590323622841" />
-    <state width="1320" height="279" key="GridCell.Tab.0.left" timestamp="1590323622840">
+    <state width="1320" height="279" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1590323640405" />
+    <state width="1320" height="279" key="GridCell.Tab.0.left" timestamp="1590323640405">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1590323622840" />
-    <state width="1320" height="279" key="GridCell.Tab.0.right" timestamp="1590323622841">
+    <state width="1320" height="279" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1590323640405" />
+    <state width="1320" height="279" key="GridCell.Tab.0.right" timestamp="1590323640406">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1590323622841" />
+    <state width="1320" height="279" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1590323640406" />
     <state x="171" y="24" key="SettingsEditor" timestamp="1590321467928">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="171" y="24" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1590321467928" />
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590322929214">
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590334204575">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590322929214" />
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590334204575" />
     <state x="347" y="168" width="672" height="677" key="run.anything.popup" timestamp="1590321513418">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
