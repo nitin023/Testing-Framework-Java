@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd88fdbf-1aff-435e-9d4d-0dfcf1ef9b75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Junit5/JunitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Junit5/JunitExceptionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest$InnerClass$InnerMostClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest$InnerClass$InnerMostClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest$InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest$InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Junit5/Junit5NestedClassTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +70,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Junit5NestedClassTest">
+  <component name="RunManager" selected="JUnit.JunitExceptionTest">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Testing-Framework-Java" />
@@ -88,6 +93,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JunitExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Framework-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit5" />
+      <option name="MAIN_CLASS_NAME" value="Junit5.JunitExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitExceptionTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing-Framework-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Junit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Junit5" />
+      <option name="MAIN_CLASS_NAME" value="Junit5.JunitExceptionTest" />
+      <option name="METHOD_NAME" value="testException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JunitSampleAssumptionsTest.testAssumeFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing-Framework-Java" />
       <extension name="coverage">
@@ -99,38 +135,6 @@
       <option name="PACKAGE_NAME" value="Junit5" />
       <option name="MAIN_CLASS_NAME" value="Junit5.JunitSampleAssumptionsTest" />
       <option name="METHOD_NAME" value="testAssumeFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitSampleAssumptionsTest.testAssumeFalseEnvProp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Framework-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Junit5" />
-      <option name="MAIN_CLASS_NAME" value="Junit5.JunitSampleAssumptionsTest" />
-      <option name="METHOD_NAME" value="testAssumeFalseEnvProp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitSampleAssumptionsTest.testAssumeTrueSaturday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testing-Framework-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Junit5" />
-      <option name="MAIN_CLASS_NAME" value="Junit5.JunitSampleAssumptionsTest" />
-      <option name="METHOD_NAME" value="testAssumeTrueSaturday" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,19 +158,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrueSaturday" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalse" />
-      <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalseEnvProp" />
       <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumingThat" />
       <item itemvalue="JUnit.Junit5NestedClassTest" />
+      <item itemvalue="JUnit.JunitExceptionTest" />
+      <item itemvalue="JUnit.JunitExceptionTest.testException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitExceptionTest" />
+        <item itemvalue="JUnit.JunitExceptionTest.testException" />
         <item itemvalue="JUnit.Junit5NestedClassTest" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumingThat" />
         <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalse" />
-        <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeTrueSaturday" />
-        <item itemvalue="JUnit.JunitSampleAssumptionsTest.testAssumeFalseEnvProp" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +196,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590318604854</updated>
-      <workItem from="1590318607793" duration="7113000" />
+      <workItem from="1590318607793" duration="7708000" />
     </task>
     <servers />
   </component>
@@ -211,37 +215,72 @@
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="147" y="41" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1366.744@0.24.1366.744" timestamp="1590318699351" />
+    <state x="100" y="96" width="1166" height="572" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590334786394">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state x="100" y="96" width="1166" height="572" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.24.1366.744@0.24.1366.744" timestamp="1590334786394" />
     <state x="420" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590318696996">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="420" y="169" key="#com.intellij.ide.util.TreeClassChooserDialog/0.24.1366.744@0.24.1366.744" timestamp="1590318696996" />
-    <state width="1320" height="279" key="GridCell.Tab.0.bottom" timestamp="1590323640406">
+    <state width="470" height="466" key="DebuggerActiveHint" timestamp="1590334690677">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590323640406" />
-    <state width="1320" height="279" key="GridCell.Tab.0.center" timestamp="1590323640405">
+    <state width="470" height="466" key="DebuggerActiveHint/0.24.1366.744@0.24.1366.744" timestamp="1590334690677" />
+    <state width="1320" height="243" key="GridCell.Tab.0.bottom" timestamp="1590334778345">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1590323640405" />
-    <state width="1320" height="279" key="GridCell.Tab.0.left" timestamp="1590323640405">
+    <state width="1320" height="243" key="GridCell.Tab.0.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590334778345" />
+    <state width="1320" height="243" key="GridCell.Tab.0.center" timestamp="1590334778345">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1590323640405" />
-    <state width="1320" height="279" key="GridCell.Tab.0.right" timestamp="1590323640406">
+    <state width="1320" height="243" key="GridCell.Tab.0.center/0.24.1366.744@0.24.1366.744" timestamp="1590334778345" />
+    <state width="1320" height="243" key="GridCell.Tab.0.left" timestamp="1590334778344">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state width="1320" height="279" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1590323640406" />
+    <state width="1320" height="243" key="GridCell.Tab.0.left/0.24.1366.744@0.24.1366.744" timestamp="1590334778344" />
+    <state width="1320" height="243" key="GridCell.Tab.0.right" timestamp="1590334778345">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="243" key="GridCell.Tab.0.right/0.24.1366.744@0.24.1366.744" timestamp="1590334778345" />
+    <state width="1320" height="230" key="GridCell.Tab.1.bottom" timestamp="1590334713556">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.bottom/0.24.1366.744@0.24.1366.744" timestamp="1590334713556" />
+    <state width="1320" height="230" key="GridCell.Tab.1.center" timestamp="1590334713556">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.center/0.24.1366.744@0.24.1366.744" timestamp="1590334713556" />
+    <state width="1320" height="230" key="GridCell.Tab.1.left" timestamp="1590334713555">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.left/0.24.1366.744@0.24.1366.744" timestamp="1590334713555" />
+    <state width="1320" height="230" key="GridCell.Tab.1.right" timestamp="1590334713556">
+      <screen x="0" y="24" width="1366" height="744" />
+    </state>
+    <state width="1320" height="230" key="GridCell.Tab.1.right/0.24.1366.744@0.24.1366.744" timestamp="1590334713556" />
     <state x="171" y="24" key="SettingsEditor" timestamp="1590321467928">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="171" y="24" key="SettingsEditor/0.24.1366.744@0.24.1366.744" timestamp="1590321467928" />
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590334204575">
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590334519462">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
-    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590334204575" />
+    <state x="462" y="103" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.24.1366.744@0.24.1366.744" timestamp="1590334519462" />
     <state x="347" y="168" width="672" height="677" key="run.anything.popup" timestamp="1590321513418">
       <screen x="0" y="24" width="1366" height="744" />
     </state>
     <state x="347" y="168" width="672" height="677" key="run.anything.popup/0.24.1366.744@0.24.1366.744" timestamp="1590321513418" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Junit5/JunitExceptionTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
